@@ -1,0 +1,99 @@
+package Application;
+
+/**
+ * Brittonni Shedrick
+ * Cosc 351 Java
+ * Pro. Vincenti
+ * Date: FEB 12-2019
+ * This is an application the will call attributed items from grocery list. 
+ * @author Tonni
+ *
+ */
+
+public class FoodItem{
+	
+
+
+/**instance variables were created for the following attributes.
+• Name (Characters)
+• Brand (Characters)
+• UPC Code (12-digit integer)
+• Production Date (Characters – for now)
+• Unit Weight (Real number
+ */
+private String Name1 = "Apple";
+private String Brand = "Sunshine";
+private String UPCcode = "012408675309";
+private String ProductionDate = "FEBTHETWELFTH";
+private Double UnitWeight = 1.25;
+
+
+/**
+ * Getters and Setters created for instance variables  
+ */
+/**
+ * @return the Name of the item
+ */
+public String getName() {
+	return Name1;
+}
+/**
+ * @param name the name to set
+ */
+public void setName(String name) {
+	Name1 = name;
+}
+/**
+ * @return the brand
+ */
+public String getBrand() {
+	return Brand;
+}
+/**
+ * @param brand the brand to set
+ */
+public void setBrand(String brand) {
+	Brand = brand;
+}
+/**
+ * @return the UPCcode
+ */
+public String getUPCcode() {
+	return UPCcode;
+}
+/**
+ * @return the productionDate
+ */
+public String getProductionDate() {
+	return ProductionDate;
+}
+/**
+ * @param productionDate the productionDate to set
+ */
+public void setProductionDate(String productionDate) {
+	ProductionDate = productionDate;
+}
+/**
+ * @return the unitWeight
+ */
+public Double getUnitWeight() {
+	return UnitWeight;
+}
+/**
+ * @param unitWeight the unitWeight to set
+ */
+public void setUnitWeight(Double unitWeight) {
+	UnitWeight = unitWeight;
+	}
+
+
+{
+System.out.println("1:"+"Name1");
+System.out.println("2:"+"Brand");
+System.out.println("3"+"UPCcode");
+System.out.println("4"+"ProductionDate");
+System.out.println("5"+"UnitWeight ");
+	}
+}
+
+
